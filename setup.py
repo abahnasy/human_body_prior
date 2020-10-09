@@ -36,7 +36,7 @@ setup(name='human_body_prior',
       description='Variational human pose prior for human pose synthesis and estimation.',
       long_description=open("README.md").read(),
       long_description_content_type="text/markdown",
-      install_requires=['torch>=1.1.0', 'smplx'],
+      install_requires=['torch>=1.1.0', 'git+https://github.com/abahnasy/smplx.git'],
       classifiers=[
           "Intended Audience :: Developers",
           "Intended Audience :: Researchers",
